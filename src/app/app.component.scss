@@ -23,8 +23,14 @@ body {
   min-width: 700px;
   padding: 50px 100px;
   width: 40%;
-  // border: solid 1px black;
+  z-index: 2;
+  background-color: rgba($color: #ffffff, $alpha: 0.9);
 }
+
+ng-particles {
+  z-index: 1;
+}
+
 .horizontal-row {
   display: flex;
   flex-direction: row;
@@ -42,6 +48,7 @@ body {
 mat-chip {
   background-color: #d8d8d6;
 }
+
 mat-chip:hover {
   background-color: #c7c7c7;
   cursor: pointer;

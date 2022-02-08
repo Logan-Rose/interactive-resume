@@ -7,6 +7,7 @@ import { MatCommonModule } from '@angular/material/core';
 import { AppComponent } from './app.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { DialogComponent } from './dialog/dialog.component';
+import { NgParticlesModule } from "ng-particles";
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +20,7 @@ import { DialogComponent } from './dialog/dialog.component';
     MatCommonModule,
     MatChipsModule,
     MatCardModule,
+    NgParticlesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
